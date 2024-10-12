@@ -1,40 +1,35 @@
+# Geometrical Deformation of Brane Matter Field within f(R,Q,P) Gravity
 
-**Title**: *Geometrical Deformation of Brane Matter Field within $f(R,Q,P)$ Gravity*
+## Authors
+Fernando M. Belchior, Roberto V. Maluf, Albert Yu. Petrov, Paulo J. Porfírio
 
-**Authors**: Fernando M. Belchior, Roberto V. Maluf, Albert Yu. Petrov, Paulo J. Porfírio
+## Key Concepts
 
----
-
-### Key Concepts:
-
-#### 1. **Braneworld Scenarios**
+### 1. Braneworld Scenarios
 - **Braneworld models** propose the existence of extra dimensions beyond the standard 4D spacetime.
 - The **Randall-Sundrum (RS) model** and its generalizations were introduced to solve the **hierarchy problem** in particle physics, which seeks to explain why gravity is significantly weaker than the other fundamental forces.
 - **Thick brane models** are a generalization of the RS model, where a real scalar field is introduced to provide "thickness" to the brane. The scalar field forms **kink-like** structures that interpolate between different vacua in spacetime, leading to a localized brane with internal structure. These configurations are symmetric under a $\mathbb{Z}_2$ reflection.
 
-#### 2. **$f(R,Q,P)$ Gravity**
+### 2. f(R,Q,P) Gravity
 - A modification of Einstein's General Relativity that includes higher-order curvature terms:
   - $R$ is the Ricci scalar.
   - $Q = R_{\mu\nu} R^{\mu\nu}$ is the square of the Ricci tensor.
   - $P = R_{\mu\nu\alpha\beta} R^{\mu\nu\alpha\beta}$ is the square of the Riemann tensor.
 - This generalization provides a more flexible framework than standard $f(R)$ gravity, which only involves the Ricci scalar, and models like $f(R,G)$ gravity that include the Gauss-Bonnet term $G$.
 
-  **Action**:
-  $$
-  S = \int d^5x \sqrt{-g} \left[\frac{1}{4} f(R,Q,P) + \mathcal{L}_m \right]
-  $$
-  where $\mathcal{L}_m$ represents the matter Lagrangian.
+**Action**:
+$$
+S = \int d^5x \sqrt{-g} \left[\frac{1}{4} f(R,Q,P) + \mathcal{L}_m \right]
+$$
+where $\mathcal{L}_m$ represents the matter Lagrangian.
 
-#### 3. **Research Objectives**
+### 3. Research Objectives
 - Investigate the behavior of codimension-one **thick brane** solutions in $f(R,Q,P)$ gravity.
 - Study the influence of geometric invariants $R$, $Q$, and $P$ on the scalar field profile, brane energy density, and the localization of spin-$\frac{1}{2}$ fermions and gravitinos (spin-$\frac{3}{2}$ fields).
 
----
+## Theoretical Framework
 
-### Theoretical Framework:
-
-#### 1. **Action and Field Equations**
-
+### 1. Action and Field Equations
 The modified Einstein field equations are derived by varying the action:
 $$
 R_{MN} f_R - \frac{1}{2} g_{MN} f + H_{MN} + K_{MN} = 2 T_{MN}
@@ -59,8 +54,7 @@ where:
 - $R^{ABC}_{\ \ \ \ N}$ represents the Riemann tensor with indices arranged appropriately.
 - $\Box = \nabla^A \nabla_A$ is the d'Alembert operator.
 
-#### 2. **Braneworld Metric**
-
+### 2. Braneworld Metric
 The braneworld scenario is studied with a 5-dimensional metric:
 $$
 ds^2 = e^{2A(y)} \eta_{\mu\nu} dx^\mu dx^\nu + dy^2
@@ -74,20 +68,16 @@ $$
   - Asymptotically reproduces the RS model warp factor ($e^{2A(y)} \rightarrow 0$ as $|y| \rightarrow \infty$).
   - Ensures normalizability of the zero-mode graviton.
 
-#### 3. **Scalar Field Lagrangian**
-
+### 3. Scalar Field Lagrangian
 The matter Lagrangian is described by a real scalar field that generates the thick brane:
 $$
 \mathcal{L}_m = -\frac{1}{2} \partial_M \phi \partial^M \phi - V(\phi)
 $$
 - The scalar field evolves dynamically, and its potential $V(\phi)$ determines the localization and thickness of the brane.
 
----
+## Analysis of Gravity Models
 
-### Analysis of Gravity Models:
-
-#### 1. **Quadratic Gravity**
-
+### 1. Quadratic Gravity
 A simple model of $f(R,Q,P)$ gravity is given by:
 $$
 f(R,Q,P) = R + k_1 R^2 + k_2 Q + k_3 P
@@ -102,16 +92,14 @@ $$
 - **Explanation**:
   - As $k_1$ increases, the kink-like structure of the scalar field evolves into a **two-kink solution**, and the brane begins to split. This signals the presence of an internal structure purely arising from the geometric higher-order terms in the gravity model.
 
-#### 2. **Cubic Gravity**
-
+### 2. Cubic Gravity
 Extending to cubic terms in $f(R,Q,P)$:
 $$
 f(R,Q,P) = R + k_1 R^3 + k_2 R Q + k_3 R P
 $$
 - The scalar field in cubic gravity tends to develop a **three-kink solution** as the parameters $k_1$, $k_2$, and $k_3$ are adjusted. This indicates a more complex internal structure of the brane. The solution shows significant geometric influences due to the presence of cubic invariants.
 
-#### 3. **Quartic Gravity**
-
+### 3. Quartic Gravity
 Three different quartic gravity models are studied:
 - **Model 1**: 
   $$
@@ -128,12 +116,9 @@ Three different quartic gravity models are studied:
 - **Findings**:
   - These models exhibit **two-kink** or **three-kink** scalar field solutions depending on the values of the parameters, further showcasing how higher-order curvature terms lead to richer internal structures within the brane.
 
----
+## Fermion Localization
 
-### Fermion Localization:
-
-#### 1. **Dirac Fermions (Spin-$\frac{1}{2}$)**
-
+### 1. Dirac Fermions (Spin-$\frac{1}{2}$)
 The Dirac action in the bulk is given by:
 $$
 S_{1/2} = \int d^5x \sqrt{-g} \left( i \bar{\Psi} \Gamma^M D_M \Psi - \lambda \phi \bar{\Psi} \Psi \right)
@@ -148,8 +133,7 @@ $$
 - **Result**:
   - Only left-handed zero modes are localized on the brane, consistent with the behavior of thick branes in General Relativity.
 
-#### 2. **Gravitino Localization (Spin-$\frac{3}{2}$)**
-
+### 2. Gravitino Localization (Spin-$\frac{3}{2}$)
 The localization of the gravitino (Rarita-Schwinger field) is similarly studied. The action is:
 $$
 S_{3/2} = \int d^5x \sqrt{-g} \left( i \bar{\Psi}_M \Gamma^{[M} \Gamma^N \Gamma^{R]} D_N \Psi_R - \lambda \phi \bar{\Psi}_M \left[ \Gamma^M, \Gamma^N \right] \Psi_N \right)
@@ -157,9 +141,7 @@ $$
 - **Explanation**:
   - The gravitino localization also yields only left-handed zero modes localized on the brane. The potentials for gravitino localization mirror those found for Dirac fermions.
 
----
-
-### Key Findings:
+## Key Findings
 
 1. **Two-Kink Solutions in Quadratic Gravity**:
    - Quadratic gravity leads to **brane splitting**, characterized by the emergence of two-kink solutions for the scalar field.
