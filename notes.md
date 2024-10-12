@@ -43,7 +43,7 @@ where:
 - $K_{MN}$ includes contributions from higher-order terms involving derivatives of $Q$ and $P$:
   $$
   \begin{aligned}
-  K_{MN} =\ & \Box (f_Q R_{MN}) + g_{MN} \nabla_A \nabla_B (f_Q R^{AB}) \\
+  K_{MN} = &\ \Box (f_Q R_{MN}) + g_{MN} \nabla_A \nabla_B (f_Q R^{AB}) \\
            & + 2 f_Q R^A_{\ (M} R_{N)A} - 2 \nabla_A \nabla_{(M} (f_Q R^A_{\ N)}) \\
            & + f_P R_{ABCM} R^{ABC}_{\ \ \ \ N} - 4 \nabla_A \nabla_B (f_P R^{A}_{\ (MN)}{}^{B})
   \end{aligned}
